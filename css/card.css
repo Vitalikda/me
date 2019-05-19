@@ -273,7 +273,7 @@ html {
 	height: 100%;
 	min-height: 400px;
 	overflow: hidden;
-	background: #eee url(../assets/images/me.jpg) center center no-repeat;
+	background: #eee url(http://lh3.googleusercontent.com/kCg3Sg5ZcfGIAJNgGgWIbfdktXst4tSZ9qgp7y9bEY6Q8BWcit7-cLmJDkGwE451VgTtg6XBoyvxHGY82_30WKWelFirxWQd0prksQ5K6PHk3LEFUT5wO0R1v46lTRvjvZYp0ai14gPYHjfHyOOZ1nd81U4XRnXqCIpXizBlHfqs_JvVNOe01IJR0Zp5uocXMlykS6b9bAuP7cFHsJs_ZIgL0Mk7DrOs1h5WQP5gOp8yDjN8JnCCTf1lawe7Z4Se9mViualruKrndfw_vZNzfZDy2U1j_Q4OQodbrC31OLGtxRiS9Ol3S4xK5orqKyjU9pmovaLvfXjZzZJyarRcRyUFoaSgxwmNgm1Q39unDr0-OWTjLLqHVteoW22wYClG11T-bN-i01iJZbgzCU29oGTuSl0N5ZDHjQDikd6tJJo6AmMX3ixU2eyR_jv-iFpej7rHNXw0Fg5Rus33AvifWke0IlF1KLVRBuwjYeq96G3einiFkbNNO_T-ewGMFbkIOJZ1ideMVifvrk5sB5kv0EigXG2U4eNvGgOzAWZIZRxyskjoLEm9Y9ZutQGJNBupQa2lj53Fo0eNIQlX-rcERQCDbiprCfKl0-y9zk3jLQy1mmH2hCcJwlhPMFGsSFe5j1zF8rQw8PP6INZm7sS6_5tv661s4Dw=w960-h1280-no) center center no-repeat;
 	background-size: 115%;
 	border-radius: 0.625rem 0 0 0.625rem;
 }
@@ -283,9 +283,10 @@ html {
 	}
 
 .card-content {
+  min-width: 320px;
 	position: relative;
 	flex: 1 1 auto;
-	padding: 2.5em;
+	padding: 2em;
   font-family: 'Arial';
 	font-size: 100%;
 	text-align: center;
