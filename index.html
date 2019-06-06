@@ -18,23 +18,18 @@
   <meta name="twitter:title" content="I'm Vitaly" />
   <meta name="twitter:description" content="Technical Support, Web Development &amp; Marketing" />
   <meta name="twitter:image" content="https://vitaly.im/assets/images/me.jpg" />
-  <link rel="stylesheet" type='text/css' href="css/card.css">
-  <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAARAAAAAAAAABEAARAAAAABEQABEAAAAAERAAAAAAAAEREQAAAAAAAREREAAAAAABERERERAAAAEREREREQAAABEREREREAAAERERABEQAAABEREAERAAAAEREREREAAAAAEREREAAAAAAAEREAAAD8PwAA8A8AAMADAADAAwAAgAEAAIABAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIABAADAAwAAwAMAAPAPAAD8PwAA" />
-  <script defer src="assets/icons/js/fa-brands.js"></script>
-  <script defer src="assets/icons/js/fa-solid.js"></script>
-  <script src="assets/icons/js/fontawesome.js"></script>
-  <script>
-    function sendEmail() { window.open('mai'+'lto:hi'+'@'+'vitaly'+'.im?'+'subject=#VITALYim: '); }
-  </script>
+  <link rel="stylesheet" type='text/css' href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
 </head>
-<body>
+<body class="loading">
   <div class="wrapper">
     <div class="card">
       <div class="card-img"></div>
       <div class="card-content">
         <h1>Vitaly Davidenko</h1>
-        <h2>Technical Support, Web Development &amp; Marketing</h2>
-        <a class="card-btn" href="#" onclick="sendEmail();">Say Hi</a>
+        <h2 class="cart-txt" data-wait="2000" data-words='["Technical Support", "Web Development", "Marketing"]'>|</h2>
+        <a class="card-btn" href="#" onclick="sendEmail();">Send Message</a>
         <div class="card-icons">
           <a href="https://t.me/vitalikda" target="_blank"><i class="fab fa-telegram-plane"></i></a>
           <a href="https://twitter.com/vitalikda" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -45,6 +40,7 @@
       </div>
     </div>
   </div>
+  <script src="main.js"></script>
 </body>
 
 </html>
